@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarkSheet</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="div1">
+        <h1>
+          MARK
+          <br />
+          SHEET
+        </h1>
+
+        <div id="inputDiv">
+          <label for="">Name</label><br />
+          <input id="inputName"
+            type="text"
+            style="
+              border: none;
+              border-bottom: 1px solid #2c5d87;
+              height: 25px;
+              background-color: #dbe9f5;
+            "
+          /><br /><br />
+          <label for="">Roll No</label><br />
+          <input
+          id="inputRoll"
+            type="number"
+            style="
+              border: none;
+              border-bottom: 1px solid #2c5d87;
+              height: 25px;
+              background-color: #dbe9f5;
+            "
+          />
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+
+      <div id="div3">
+        <p>subject</p>
+        <p>marks</p>
+      </div>
+      <br />
+      <hr />
+      <br />
+
+      <div id="div4">
+        <p>Mathamatics</p>
+        <input
+        value=""
+        id="math"
+          type="number"
+          style="height: 30px; width: 130px; border-radius: 20px"
+        />
+      </div>
+      <br />
+      <div id="div5">
+        <p>Science</p>
+        <input
+        id="Science"
+          type="number"
+          style="height: 30px; width: 130px; border-radius: 20px"
+        />
+      </div>
+      <br />
+      <div id="div6">
+        <p>Social studies</p>
+        <input
+        id="sst"
+          type="number"
+          style="height: 30px; width: 130px; border-radius: 20px"
+        />
+      </div>
+      <br />
+      <div id="div7">
+        <p>urdu</p>
+        <input
+        id="urdu"
+          type="number"
+          style="height: 30px; width: 130px; border-radius: 20px"
+        />
+      </div>
+      <br />
+      <div id="div8">
+        <p>English</p>
+        <input
+        id="english"
+          type="number"
+          style="height: 30px; width: 130px; border-radius: 20px"
+        />
+      </div>
+      <br />
+      <hr />
+      <div style="display: flex; justify-content: center">
+        <button
+        id="but"
+          style="
+            height: 30px;
+            width: 200px;
+            font-size: large;
+            background-color: #afc5d9;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+            color: #2c5d87;
+            margin-top: 12px;
+            margin-bottom: 12px;
+          "
+        >
+          Result
+        </button>
+      </div>
+      <hr />
+      <br />
+
+      <div style="background-color: #afc5d9; padding: 20px; border-radius: 7px">
+        <div id="div6">
+          <p >total</p>
+          <div
+          id="t"
+            style="
+              border: 2px solid;
+              height: 30px;
+              width: 130px;
+              border-radius: 20px;
+              text-align: center;
+              background-color: white;
+            "
+          >
+            <p id="total"></p>
+          </div>
+        </div>
+        <br />
+        <div id="div7">
+          <p
+        >percentage</p>
+          <div
+          id="p"
+            style="
+              border: 2px solid;
+              height: 30px;
+              width: 130px;
+              border-radius: 20px;
+              text-align: center;
+              background-color: white;
+
+            "
+          >
+            <p id="percent"></p>
+          </div>
+        </div>
+        <br />
+        <div id="div8">
+          <p >grade</p>
+          <div
+          id="g"
+            style="
+              border: 2px solid;
+              height: 30px;
+              width: 130px;
+              border-radius: 20px;
+              text-align: center;
+              background-color: white;
+
+            "
+          >
+            <p id="grade"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
